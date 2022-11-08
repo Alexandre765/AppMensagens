@@ -17,7 +17,7 @@ namespace Mensagens
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-
+            var result = DisplayAlert("Alerta", "Deseja realmente sair?", "ok");
         }
     }
 }
